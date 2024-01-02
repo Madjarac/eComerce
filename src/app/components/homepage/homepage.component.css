@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lexend+Peta:wght@900&family=Nova+Square&family=PT+Serif:wght@400;700&display=swap');
+
+
+
+video{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    font-size: 70px;
+
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+
+.h1span{
+    color: rgb(255, 236, 197);
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.newcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newcollection h2{
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    padding: 100px 0 50px 0;
+}
+
+.badge{
+    font-size: 20px;
+    background-color: blue;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.card {
+    margin-bottom: 20px; 
+}
+
+.card a{
+    background-color: rgb(255, 236, 201);
+    border: 1px solid rgb(255, 195, 106);
+    transition: 0.2s;
+}
+
+.card a:hover{
+    background-color: rgb(241, 209, 160);
+}
+
+card-img-top{
+    width: 100%;
+}
+
+.card-text-price span{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.seemore{
+    background-color: rgb(255, 236, 201);
+    border: 1px solid rgb(255, 195, 106);
+    border-radius: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    transition: 0.2s;
+}
+
+.seemore:hover{
+    background-color: rgb(241, 209, 160);
+}
+
+.imagediv1,
+.imagediv2,
+.imagediv3,
+.imagediv4,
+.imagediv5{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .1s;
+}
+
+.imagediv1 {
+    background-image: url('../../../assets/items/tshirtclassic.jpg');
+}
+
+.imagediv2{
+    background-image: url('../../../assets/items/womenbag.jpg');
+}
+
+.imagediv3{
+    background-image: url('../../../assets/items/Kosulja.jpg');
+}
+
+.imagediv4{
+    background-image: url('../../../assets/items/sweatshirt.jpg');
+}
+
+.imagediv5{
+    background-image: url('../../../assets/items/trenerka.jpg');
+}
+
+.card:hover .imagediv1{
+    background-image: url('../../../assets/items/image_65079973-8c0d-4ee4-b8cb-08.jpg');
+}
+
+.card:hover .imagediv2{
+    background-image: url('../../../assets/items/numph_701869_caviar_1.jpg');
+}
+
+.card:hover .imagediv3{
+    background-image: url('../../../assets/items/230307_qqq54-4.jpg');
+}
+
+.card:hover .imagediv4{
+    background-image: url('../../../assets/items/5388453800_6_1_1.jpg');
+}
+
+.card:hover .imagediv5{
+    background-image: url('../../../assets/items/18e77c178b8b2b8af5ba2c62ceb99e4d.jpg');
+}
+
+.imageandtext{
+}
+
+.imageandtext img{
+    height: 350px;
+}
+
+.imageandtext .card{
+    margin: 50px 0;
+}
+
+.text{
+    width: 60%;
+    padding: 20px;
+}
+
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-img-overlay h5{
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.card-img-overlay p{
+    font-size: 20px;
+}
+
+.best{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best .text{
+    padding: 0 0 20px 0;
+}
+
+.best .text h2{
+    font-weight: bold;
+}
+
+.best .texttwo{
+    display: flex;
+    justify-content: center;
+}
+
+.best .card{
+    border: none;
+    padding: 100px 0 100px 0;
+}
+
+.best .col-md-5{
+    text-align: center;
+}
+
+.best img{
+    filter: drop-shadow(5px 8px 6px rgb(86, 86, 86));
+    background-color: rgba(0, 0, 0, 0.057);
+    border-radius: 20px;
+}
+
+.best h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.best span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.best .seemore{
+    background-color: rgb(255, 236, 201);
+    border: 1px solid rgb(255, 195, 106);
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.2s;
+    margin: 20px 0;
+}
+
+.best .seemore:hover{
+    background-color: rgb(241, 209, 160);
+}
+
+.best span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.best .col-md-7{
+    display: flex;
+    align-items: center;
+}
+
+.contact .btn{
+    margin: 20px 0;
+}
+
+.contact input{
+    margin: 0 0 20px 0;
+}
+
+.contact .col-md-5{
+    background-color: rgb(157, 157, 157);
+    border: 1px solid rgb(97, 97, 97);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contact{
+    padding: 100px 0;
+    background-color: rgb(241, 209, 160);
+}
